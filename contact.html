@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <link rel="stylesheet" href="assets/styles/grid.css">
+</head>
+<body>
+    
+    <nav class="navbar">
+
+        <div class="container">
+            <div class="col-12">
+                
+                <ul class="navbar-nav">
+                    <li class="navbar-item" >
+                        <a href="index.html" class="nav-link">HOME</a>
+                    </li>
+
+                    <li class="navbar-item" >
+                        <a href="about.html" class="nav-link">ABOUT</a>
+                    </li>
+
+                    <li class="navbar-item" >
+                        <a href="content-list.html" class="nav-link">DESIGNS</a>
+                    </li>
+
+                    <li class="navbar-item" >
+                        <a href="specific-content.html" class="nav-link">SPECIFIC DESIGNS</a>
+                    </li> 
+
+                    <li class="navbar-item" >
+                        <a href="contact.html" class="nav-link">CONTACT</a>
+                    </li>
+                    
+                </ul>
+
+                <h1 class="navbar-name">
+                    CONTACT ME
+                </h1>
+            </div>           
+        </div>    
+            
+    </nav>
+    
+    
+    <div class="container">
+        <div class="row">
+
+            <!--Main contant form-->
+            <div class="col-8">
+                <main>
+                    
+                    <form 
+                    action="mailto:admin@gamesnet.com"
+                    method="post"
+                    enctype="text/plain"
+                    class="contact-form">
+                        
+                        <div class="container">
+                            
+                            <div class="row">
+                                <div class="col-12">
+                                    <h3>Contact Us</h3>
+                                </div>
+                            </div>
+                        
+                        <!--Name Surname-->
+                        <div class="row">
+                            <div class="col-6">
+                                <label for="first-name-input">First Name</label>
+                                <input type="text"
+                                id="first-name-input"
+                                name="first-name"
+                                placeholder="Cherise" required>
+                            </div>
+                            <div class="col-6">
+                                <label for="last-name-input">Last Name</label>
+                                <input type="text"
+                                id="last-name-input"
+                                name="last-name"
+                                placeholder="Pintley" required>
+                            </div>
+                        </div>   
+                        
+                        <!--Email-->
+                        <div class="row">
+                            <div class="col-12">
+                                <label for="email-address-input">Email Address</label>
+                                <input type="text"
+                                id="email-address-input"
+                                name="email-adress"
+                                placeholder="cherisepintley@gmail.com" required>
+                            </div>
+                        </div>
+                        
+                        <!--Topic Dropdown-->
+                        <div class="row">
+                                <div class="col-12">
+                                    <label for="topic-dropdown">Topic</label>
+                                    <select name="topic" 
+                                    id="topic-dropdown"
+                                    required>
+                                    
+                                    <option value=""></option>
+                                    
+                                    <option value="tech-support">
+                                        GRAPHIC DESIGN
+                                    </option>
+                                    
+                                    <option value="submit-review">
+                                        PORTFOLIO QUESTIONS
+                                    </option>
+                                    
+                                    <option value="website-problem">
+                                        OTHER
+                                    </option>
+                                    
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <!--Subject-->
+                        <div class="row">
+                            <div class="col-12">
+                                <label for="subject-input">
+                                    Subject
+                                </label>
+                                <input type="text"
+                                id="subject-input"
+                                name="subject"
+                                placeholder="Design inquiries" 
+                                required>
+                            </div>
+                        </div>
+                        
+                        <!--Message-->
+                        <div class="row">
+                            <div class="col-12">
+                                <label for="message-input">
+                                    Message
+                                    <textarea 
+                                    name="Message" 
+                                    id="message-input" 
+                                    cols="30" 
+                                    rows="10" 
+                                    required>
+                                </textarea>
+                            </div>
+                        </div>
+
+                        <!--Form Buttom-->
+                        <div class="row">
+                            <div class="col-6">
+                                <button type="submit" 
+                                class="button">
+                                    Send
+                                </button>
+                            </div>
+
+                            <div class="col-6">
+                                <button type="reset" 
+                                class="button clear">
+                                    Cancel
+                                </button>
+                            </div>
+
+                        </div>
+                        
+                    </div>
+                    
+                </form>                
+            </main>
+            </div>
+
+            <!--Side bar-->
+            <div class="col-4">  
+            <div class="contact-details">
+                <h3>Snail Mail</h3>
+                <p>
+                    36, charvin 
+                    <br>
+                    Triq pietru saliba 
+                    <br>
+                    Luqa 
+                </p>
+
+                <!--horizontal rule - seperator line-->
+                <hr>
+
+                <h3>E-mail</h3>
+
+                <a href="mailto:info@gamesnet.com">
+                    cherisepintley@gmail.com
+                </a>
+            </div>       
+            </div>  
+
+    </div>
+    
+   
+</div>
+
+
+
+
+<footer>
+    <div class="container">
+        &copy;2024, Cherise Pintley
+    </div>
+</footer>
+
+
+</body>
+</html>
