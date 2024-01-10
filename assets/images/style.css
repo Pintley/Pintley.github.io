@@ -1,0 +1,226 @@
+<!--navbar-->
+
+.navbar {
+    border-bottom: 1px solid white;
+    padding: .5em;
+}
+
+.nav-link {
+    margin: 1em;
+}
+
+.navbar-name{
+    color: white;
+    font-family: 'Bebas Neue', Arial, sans-serif;
+    font-size: 50px;
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    margin-top: 0.5em;
+}
+
+.navbar-nav {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    justify-content: space-between; 
+}
+.navbar-nav li {
+    padding: 0em;
+    margin: 0 0.5em;
+    font-size: 1.2em; 
+    
+}
+
+a {
+    font-family: 'Bebas Neue', Arial, sans-serif;
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    padding: 0.2em 1em;
+    display: block;
+    border-radius: 30px;
+    justify-content: space-between;
+    width: 150px;
+    text-align: center;
+}
+
+
+
+
+a:hover {
+    font-family: 'Bebas Neue', Arial, sans-serif;
+    color: white;
+    background-color: black;
+    justify-content: space-between;
+}
+
+
+.index{
+    background-color: black;
+}
+
+.index img{
+    width: 50%;
+}
+
+
+
+<!--contactpage-->
+
+.contact-form-background {
+    color: black;
+}
+
+.cfheader1 {
+    text-align: center;
+    color: gray;
+    font-size: 1.1em;
+}
+
+.contact-form-titles {
+    color: white;
+}
+
+.contact-form label, 
+.contact-form input, 
+.contact-form select, 
+.contact-form textarea {
+    display: block;
+    width: 100%;
+    color: black;
+}
+
+.contact-form-label{
+    display: block;
+    width: 100%;
+    color: white;
+}
+
+.contact-form label {
+    margin-bottom: 0.5em;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+    border-bottom: 1px solid black;
+    padding: 0.5em;
+    border-radius: 8px;
+}
+
+.contact-form :invalid{
+    border-color: #ff0000;
+    color: #ff0000;
+}
+
+.contact-form :invalid::placeholder{
+    color: #ff0000;
+}
+
+.contact-form .button{
+    cursor: pointer;
+    padding: .8em;
+    width: 15%;
+    font-size: 1.2em;
+    text-align: center;
+    align-items: center;
+    border-radius: 100px;
+    background-color: white;
+}
+
+.contact-form button.button:hover{
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+
+
+<!--aboutpage-->
+
+.text {
+    color: white;
+}
+
+.abc{
+    color:white;
+    text-align: center;
+}
+
+
+
+
+<!--articlelistpage-->
+
+
+.article-item {
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+}
+
+
+.article-item img{
+    display: block;
+    width:30%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+}
+
+    
+footer{
+    background-color: black;
+    color: aliceblue;
+    font-size: .9em;
+    margin-top: 4em;
+    padding: 1.11em 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
