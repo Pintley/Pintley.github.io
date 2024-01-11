@@ -152,14 +152,32 @@ a {
 
 .article-item img{
     display: block;
-    width:30%;
+    width:100%;
+}
+
+
+.content-item {
+    display: block;
+    width: 20%;
+    border-radius: 8px;
+    display: flex;
+}
+
+.content-item img{
+    display: block;
+    width:900%;
+    display: flex;
 }
 
 
 
 
-
-
+.list-pics {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    justify-content: space-between; 
+}
 
 
 
